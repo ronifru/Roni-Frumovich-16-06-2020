@@ -9,10 +9,10 @@ function FavoritesContainer(){
     function renderFavorites() {
         return favorites.map(favorite => <FavoriteCard favorite={favorite}/>)
     }
-
+    let favoritesComponents = renderFavorites();
     return (
       <div className='favorites-container'>
-          {renderFavorites()}
+          {favoritesComponents.length != 0 ? favoritesComponents : <div className='no-favorites-message'>No  Saved Favorites</div>}
       </div>
     );
 }
