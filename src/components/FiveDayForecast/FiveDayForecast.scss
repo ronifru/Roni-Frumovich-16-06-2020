@@ -1,0 +1,10 @@
+.five-days-forecast {
+  display: flex;
+  justify-content: space-between;
+
+  .day-forecast {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+  }
+}
