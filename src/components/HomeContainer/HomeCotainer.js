@@ -7,7 +7,7 @@ import {
     getCurrentWeather,
     getFiveDayForecast,
     removeFromFavorites
-} from "../../redux/actions";
+} from "../../redux/actions/actions";
 import {useDispatch, useSelector} from "react-redux";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import DayForecastCard from "../DayForecastCard/DayForecastCard";
@@ -27,12 +27,10 @@ function HomeContainer() {
     const fiveDayForecast = useSelector(state => state.fiveDayForecast);
     const favorites = useSelector(state => state.favorites);
     const currentLocation = useSelector(state => state.currentLocation);
-    const [favoritesNames, setFavoritesNames] = useState(favorites.map(favorite => (favorite.LocalizedName)));
+    const [favoritesNames, setFavoritesNames] = useState(favorites.map(favorite => (favorite.locationDetails.LocalizedName)));
     const [isInFavorites, setIsInFavorites] = useState(currentLocation ? favoritesNames.includes(currentLocation.LocalizedName) : null)
 
     useEffect(() => {
-        console.log('in use effect')
-        console.log(error)
         let defaultLocationKey = "215854"; //Tel Aviv key
         let defaultLocationName = "Tel Aviv";
         let currentLocationName = currentLocation ? currentLocation.LocalizedName : defaultLocationName;
@@ -69,7 +67,8 @@ function HomeContainer() {
 
     function onAddToFavoritesClicked(){
         if (!isInFavorites){
-            dispatch(addToFavorites(currentLocation));
+            let favorite = {locationDetails: currentLocation, currentWeather: currentWeather}
+            dispatch(addToFavorites(favorite));
         }
         else {
             dispatch(removeFromFavorites(currentLocation))

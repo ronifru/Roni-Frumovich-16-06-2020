@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import './App.scss';
-import HomeContainer from './components/HomeContainer/HomeCotainer';
+import HomeContainer from '../HomeContainer/HomeCotainer';
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
 import ToggleButton from '@material-ui/lab/ToggleButton';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import HomeIcon from '@material-ui/icons/Home';
-import FavoritesContainer from "./components/FavoritesContainer/FavoritesContainer";
+import FavoritesContainer from "../FavoritesContainer/FavoritesContainer";
 import {useDispatch, useSelector} from 'react-redux'
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import {changeView} from "./redux/actions";
+import {changeView} from "../../redux/actions/actions";
 
 function App() {
 
