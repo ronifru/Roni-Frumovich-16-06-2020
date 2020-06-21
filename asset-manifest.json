@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/weather-app/static/css/main.fd8ac8e9.chunk.css",
-    "main.js": "/weather-app/static/js/main.d5e5ca69.chunk.js",
-    "main.js.map": "/weather-app/static/js/main.d5e5ca69.chunk.js.map",
-    "runtime-main.js": "/weather-app/static/js/runtime-main.e6f382d7.js",
-    "runtime-main.js.map": "/weather-app/static/js/runtime-main.e6f382d7.js.map",
-    "static/css/2.d34346ea.chunk.css": "/weather-app/static/css/2.d34346ea.chunk.css",
-    "static/js/2.90e5065a.chunk.js": "/weather-app/static/js/2.90e5065a.chunk.js",
-    "static/js/2.90e5065a.chunk.js.map": "/weather-app/static/js/2.90e5065a.chunk.js.map",
-    "index.html": "/weather-app/index.html",
-    "precache-manifest.cb86d7a1106296e46f2e08989e565774.js": "/weather-app/precache-manifest.cb86d7a1106296e46f2e08989e565774.js",
-    "service-worker.js": "/weather-app/service-worker.js",
-    "static/css/2.d34346ea.chunk.css.map": "/weather-app/static/css/2.d34346ea.chunk.css.map",
-    "static/css/main.fd8ac8e9.chunk.css.map": "/weather-app/static/css/main.fd8ac8e9.chunk.css.map",
-    "static/js/2.90e5065a.chunk.js.LICENSE.txt": "/weather-app/static/js/2.90e5065a.chunk.js.LICENSE.txt"
+    "main.css": "/Roni-Frumovich-16-06-2020/static/css/main.fd8ac8e9.chunk.css",
+    "main.js": "/Roni-Frumovich-16-06-2020/static/js/main.35710847.chunk.js",
+    "main.js.map": "/Roni-Frumovich-16-06-2020/static/js/main.35710847.chunk.js.map",
+    "runtime-main.js": "/Roni-Frumovich-16-06-2020/static/js/runtime-main.215b41c3.js",
+    "runtime-main.js.map": "/Roni-Frumovich-16-06-2020/static/js/runtime-main.215b41c3.js.map",
+    "static/css/2.d34346ea.chunk.css": "/Roni-Frumovich-16-06-2020/static/css/2.d34346ea.chunk.css",
+    "static/js/2.90e5065a.chunk.js": "/Roni-Frumovich-16-06-2020/static/js/2.90e5065a.chunk.js",
+    "static/js/2.90e5065a.chunk.js.map": "/Roni-Frumovich-16-06-2020/static/js/2.90e5065a.chunk.js.map",
+    "index.html": "/Roni-Frumovich-16-06-2020/index.html",
+    "precache-manifest.b961999888213057d6248ad07fdb19ec.js": "/Roni-Frumovich-16-06-2020/precache-manifest.b961999888213057d6248ad07fdb19ec.js",
+    "service-worker.js": "/Roni-Frumovich-16-06-2020/service-worker.js",
+    "static/css/2.d34346ea.chunk.css.map": "/Roni-Frumovich-16-06-2020/static/css/2.d34346ea.chunk.css.map",
+    "static/css/main.fd8ac8e9.chunk.css.map": "/Roni-Frumovich-16-06-2020/static/css/main.fd8ac8e9.chunk.css.map",
+    "static/js/2.90e5065a.chunk.js.LICENSE.txt": "/Roni-Frumovich-16-06-2020/static/js/2.90e5065a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6f382d7.js",
+    "static/js/runtime-main.215b41c3.js",
     "static/css/2.d34346ea.chunk.css",
     "static/js/2.90e5065a.chunk.js",
     "static/css/main.fd8ac8e9.chunk.css",
-    "static/js/main.d5e5ca69.chunk.js"
+    "static/js/main.35710847.chunk.js"
   ]
 }
