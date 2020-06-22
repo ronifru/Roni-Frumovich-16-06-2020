@@ -2,7 +2,7 @@ import axios from 'axios';
 import * as actionTypes from './actionTypes';
 
 const url = 'https://dataservice.accuweather.com/';
-const apikey='hTWbeMVgqncaqwA6kUHvP5axkjmWGNmP';
+const apikey='hAeyfJTj2Wf6wNYPqjRJkbyHACHAOfUH';
 
 function autoCompleteAction(responseData){
     return {type: actionTypes.ON_AUTOCOMPLETE_SUCCESS, data: responseData};
