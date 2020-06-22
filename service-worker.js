@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Roni-Frumovich-16-06-2020/precache-manifest.e8470b3b1a582439837136b85da4a383.js"
+  "/Roni-Frumovich-16-06-2020/precache-manifest.15316bd4c77d1f75692ced838fdb5516.js"
 );
 
 self.addEventListener('message', (event) => {

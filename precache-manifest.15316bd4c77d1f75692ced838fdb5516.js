@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5339571e5d164f8488038aed9889622",
+    "revision": "89754d4dd994514614aa4a0ffde4a06a",
     "url": "/Roni-Frumovich-16-06-2020/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Roni-Frumovich-16-06-2020/static/css/2.d34346ea.chunk.css"
   },
   {
-    "revision": "542e64ec403dff0c391f",
+    "revision": "92093af54a2692c15458",
     "url": "/Roni-Frumovich-16-06-2020/static/css/main.bb4ae556.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Roni-Frumovich-16-06-2020/static/js/2.2e9ad235.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "542e64ec403dff0c391f",
-    "url": "/Roni-Frumovich-16-06-2020/static/js/main.4f508065.chunk.js"
+    "revision": "92093af54a2692c15458",
+    "url": "/Roni-Frumovich-16-06-2020/static/js/main.6cd8b802.chunk.js"
   },
   {
     "revision": "16d21a2474a96fca01fb",
